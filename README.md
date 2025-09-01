@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+🐝 Manuka Honey Product Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+published link:
 
-In the project directory, you can run:
+This project is a React-based e-commerce product page for showcasing Manuka Honey UMF™ 24+. It includes a responsive sticky navigation bar, interactive product details, and purchase options designed for a modern shopping experience.
 
-### `npm start`
+✨ Features
+🔝 Navbar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sticky navigation bar that stays on top while scrolling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Desktop and mobile views with hamburger menu
 
-### `npm test`
+Logo centered, links on both sides
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Action icons: search, profile, and cart (with badge)
 
-### `npm run build`
+🛍 Product Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Hero section:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Left: Main product image + image gallery
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Right: Product title, reviews, description, and certifications
 
-### `npm run eject`
+UMF & MGO Info Card
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Toggleable info explaining honey grading system
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Purchase Options
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Select honey jar size
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Choose payment method: one-time or subscription
 
-## Learn More
+Quantity adjuster with add-to-cart button
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Beauty Bundle Section
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pre-bundled products with discounted price
 
-### Code Splitting
+Product selectors (e.g., 250g / 500g)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Add bundle to cart button
 
-### Analyzing the Bundle Size
+Extra Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Rewards points info
 
-### Making a Progressive Web App
+Delivery & Afterpay info
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+UMF™ scale and Taste profile progress bars
 
-### Advanced Configuration
+📱 Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Optimized layouts for desktop, tablet, and mobile
 
-### Deployment
+CSS media queries ensure adaptive grid/flex layouts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🛠 Tech Stack
 
-### `npm run build` fails to minify
+React (functional components, hooks for state & interactivity)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CSS (modular stylesheets) for responsive design
+
+Cloudinary-hosted images for products and certifications
