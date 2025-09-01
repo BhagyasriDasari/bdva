@@ -1,7 +1,7 @@
 🐝 Manuka Honey Product Page
 
 
-published link:
+published link:https://bdvahoney.vercel.app/
 
 This project is a React-based e-commerce product page for showcasing Manuka Honey UMF™ 24+. It includes a responsive sticky navigation bar, interactive product details, and purchase options designed for a modern shopping experience.
 
