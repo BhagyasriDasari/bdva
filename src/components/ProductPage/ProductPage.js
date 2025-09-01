@@ -113,106 +113,98 @@ export default function ProductPage() {
               <button className="add-cart">Add to Cart</button>
             </div>
 
-           <div className="bundle">
-  <h4>Beauty Bundle</h4>
-  <div className="bundle-items">
-    <div className="bundle-item">
-      <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693935/image_hdcuao.png" alt="UMF 20+" />
-      <p>UMF 20+ <br /> 250g</p>
+             <div className="bundle-container">
+      {/* Header */}
+      <div className="bundle-header">
+        <h2>Beauty Bundle</h2>
+        <span className="save-text">Save 10%</span>
+      </div>
+
+      {/* Products */}
+      <div className="bundle-products">
+        <div className="product">
+          <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693935/image_hdcuao.png" alt="UMF 24+" />
+          <p>UMF 20+</p>
+          <select>
+            <option>250g</option>
+            <option>500g</option>
+          </select>
+        </div>
+
+        <span className="plus">+</span>
+
+        <div className="product">
+          <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693956/image_gjhd8p.png" alt="Wooden Spoon" />
+          <p>UMF 24+</p>
+          <select>
+            <option>250g</option>
+            <option>500g</option>
+          </select>
+        </div>
+
+        <span className="plus">+</span>
+        <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693975/image_152_dlzdzo.png" alt="UMF 20+" />
+        <div className="product">
+          <p>Wooden Spoon</p>
+        </div>
+      </div>
+
+      {/* Price */}
+      <div className="price-section">
+        <span className="old-price">$478.75 USD</span>
+        <span className="new-price">$430.88 USD</span>
+      </div>
+
+      {/* Add to Cart */}
+      <button className="add-btn">ADD BUNDLE TO CART</button>
+
+      {/* Rewards */}
+      <p className="rewards">
+        Colourclub members earn up to <b>56</b> reward points when buying this
+        item.
+      </p>
+
+      {/* Delivery Info */}
+      <div className="delivery-info">
+        <p>DELIVERY: Free delivery on orders over $30</p>
+        <p>ESTIMATED DELIVERY DATE: Jun 9 - Jun 13</p>
+        <p>
+          AFTERPAY: 4 interest-free payments of $13.97 with{" "}
+          <span className="afterpay">Afterpay</span>
+        </p>
+      </div>
+
+      {/* UMF Scale */}
+      <div className="scale">
+        <p className="scale-title">UMF™ SCALE</p>
+        <div className="scale-labels">
+          <span>UMF™ 10+</span>
+          <span>UMF™ 15+</span>
+          <span>UMF™ 20+</span>
+          <span className="highlight">UMF™ 24+</span>
+          <span>UMF™ 26+</span>
+          <span>UMF™ 28+</span>
+          <span>UMF™ 30+</span>
+        </div>
+        <div className="progress-bar">
+          <div className="progress" style={{ width: "60%" }}></div>
+        </div>
+      </div>
+
+      {/* Taste Profile */}
+      <div className="taste">
+        <p className="scale-title">TASTE PROFILE</p>
+        <div className="scale-labels">
+          <span>Clean & Intense</span>
+          <span>Bold & Intense</span>
+        </div>
+        <div className="progress-bar">
+          <div className="progress" style={{ width: "50%" }}></div>
+        </div>
+      </div>
     </div>
-    <div className="bundle-item">
-      <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693956/image_gjhd8p.png" alt="UMF 24+" />
-      <p>UMF 24+ <br /> 250g</p>
-    </div>
-    <div className="bundle-item">
-      <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693975/image_152_dlzdzo.png" alt="Wooden Spoon" />
-      <p>Wooden Spoon</p>
-    </div>
-  </div>
-
-  <div className="bundle-price">
-    <p><s>$163.14</s> <span className="discounted">$143.28 USD</span> <span className="save">Save 12%</span></p>
-  </div>
-
-  <button className="add-bundle">Add Bundle to Cart</button>
-</div>
-          </section>
-
-          {/* DETAILS SECTION */}
-          <section className="details">
-            <div className="rewards">
-              <p>🎉 Colourclub members earn reward points when buying this item.</p>
-              <div className="auth-links">
-                <a href="#signup">Sign up</a> or <a href="#login">log in</a>
-              </div>
-            </div>
-
-            <div className="delivery">
-              <p>
-                <b>DELIVERY:</b> Free delivery on orders over $30
-              </p>
-              <p>
-                <b>Estimated Delivery:</b> Apr 8 - Apr 10
-              </p>
-              <p>💳 Afterpay: 4 payments of $13.97</p>
-            </div>
-
-            <div className="umf-scale">
-              <h3>UMF™ Scale</h3>
-              <div className="scale">
-                {["10+", "15+", "20+", "24+", "26+", "28+", "30+"].map((v) => (
-                  <span key={v} className={v === "24+" ? "active" : ""}>
-                    {v}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div className="taste-profile">
-              <h3>Taste Profile</h3>
-              <div className="profile-line">
-                <span>Clean & Sweet</span>
-                <div className="dot"></div>
-                <span>Bold & Intense</span>
-              </div>
-            </div>
-          </section>
-
-          {/* CERTIFICATIONS SECTION */}
-          <section className="certifications">
-            <div className="cert-grid">
-              <div className="cert-card">
-                <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693935/image_hdcuao.png" alt="UMF" />
-                <h4>UMF</h4>
-                <p>The UMF Grading system appraises natural markers in manuka honey.</p>
-              </div>
-              <div className="cert-card">
-                <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693956/image_gjhd8p.png" alt="Non-GMO" />
-                <h4>Non-GMO</h4>
-                <p>Certified with the Non-GMO Project Standard.</p>
-              </div>
-              <div className="cert-card">
-                <img src="https://res.cloudinary.com/ddnpmhq8v/image/upload/v1756693975/image_152_dlzdzo.png" alt="Glyphosate Free" />
-                <h4>Glyphosate Free</h4>
-                <p>Every batch tested independently to ensure it is glyphosate free.</p>
-              </div>
-              <div className="cert-card">
-                <img src="/images/halal.png" alt="Halal" />
-                <h4>Halal</h4>
-                <p>Certified by FIANZ, New Zealand.</p>
-              </div>
-              <div className="cert-card">
-                <img src="/images/fernmark.png" alt="Fernmark" />
-                <h4>Fernmark</h4>
-                <p>Accredited & approved by the NZ Government.</p>
-              </div>
-              <div className="cert-card">
-                <img src="/images/mgo-cert.png" alt="MGO Certified" />
-                <h4>MGO Certified</h4>
-                <p>Independent certification for MGO levels.</p>
-              </div>
-            </div>
-            <button className="more-btn">Find Out More</button>
+  );
+}
           </section>
         </div>
       </section>
